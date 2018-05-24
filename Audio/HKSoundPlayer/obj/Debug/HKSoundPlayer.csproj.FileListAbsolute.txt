@@ -1,0 +1,16 @@
+C:\Users\Remi\source\repos\HKSoundPlayer\HKSoundPlayer\obj\Debug\HKSoundPlayer.csprojResolveAssemblyReference.cache
+C:\Users\Remi\source\repos\HKSoundPlayer\HKSoundPlayer\obj\Debug\HKSoundPlayer.Form1.resources
+C:\Users\Remi\source\repos\HKSoundPlayer\HKSoundPlayer\obj\Debug\HKSoundPlayer.Properties.Resources.resources
+C:\Users\Remi\source\repos\HKSoundPlayer\HKSoundPlayer\obj\Debug\HKSoundPlayer.csproj.GenerateResource.Cache
+C:\Users\Remi\source\repos\HKSoundPlayer\HKSoundPlayer\obj\Debug\HKSoundPlayer.csproj.CoreCompileInputs.cache
+C:\Users\Remi\source\repos\HKSoundplayer\HKSoundPlayer\bin\Debug\HKSoundPlayer.exe.config
+C:\Users\Remi\source\repos\HKSoundplayer\HKSoundPlayer\bin\Debug\HKSoundPlayer.exe
+C:\Users\Remi\source\repos\HKSoundplayer\HKSoundPlayer\bin\Debug\HKSoundPlayer.pdb
+C:\Users\Remi\source\repos\HKSoundplayer\HKSoundPlayer\obj\Debug\HKSoundPlayer.exe
+C:\Users\Remi\source\repos\HKSoundplayer\HKSoundPlayer\obj\Debug\HKSoundPlayer.pdb
+C:\Users\Remi\source\repos\HKSoundplayer\HKSoundPlayer\bin\Debug\NAudio.dll
+C:\Users\Remi\source\repos\HKSoundplayer\HKSoundPlayer\bin\Debug\NAudio.xml
+C:\Users\Remi\source\repos\HKSoundplayer\HKSoundPlayer\bin\Debug\NAudio.Vorbis.dll
+C:\Users\Remi\source\repos\HKSoundplayer\HKSoundPlayer\bin\Debug\NAudio.Vorbis.xml
+C:\Users\Remi\source\repos\HKSoundplayer\HKSoundPlayer\bin\Debug\NVorbis.dll
+C:\Users\Remi\source\repos\HKSoundplayer\HKSoundPlayer\bin\Debug\NVorbis.xml
