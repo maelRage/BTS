@@ -30,7 +30,7 @@ class PdoR
     private function __construct()
     {
         PdoR::$monPdo = new PDO(
-            PdoR::$serveur . ';' . PdoGsb::$bdd,
+            PdoR::$serveur . ';' . PdoR::$bdd,
             PdoR::$user,
             PdoR::$mdp
         );
@@ -52,10 +52,10 @@ class PdoR
      *
      * @return l'unique objet de la classe PdoGsb
      */
-    public static function getPdoGsb()
+    public static function getPdoR()
     {
         if (PdoR::$monPdoR == null) {
-            PdoR::$monPdoR = new PdoGsb();
+            PdoR::$monPdoR = new PdoR();
         }
         return PdoR::$monPdoR;
     }
@@ -341,7 +341,7 @@ class PdoR
 
     public function majChambrePlus()
     {
-        $requetePrepare = PdoGsb::$monPdo->prepare(
+        $requetePrepare = PdoR::$monPdo->prepare(
                 'UPDATE chambreenvoi '
                 . 'SET Ordre = "|Temperature+#" '
                 . 'WHERE id = 1'
@@ -351,7 +351,7 @@ class PdoR
 
     public function majChambreMoins()
     {
-        $requetePrepare = PdoGsb::$monPdo->prepare(
+        $requetePrepare = PdoR::$monPdo->prepare(
                 'UPDATE chambreenvoi '
                 . 'SET Ordre = "|Temperature-#" '
                 . 'WHERE id = 1'
@@ -361,7 +361,7 @@ class PdoR
 
     public function majChambreArret()
     {
-        $requetePrepare = PdoGsb::$monPdo->prepare(
+        $requetePrepare = PdoR::$monPdo->prepare(
                 'UPDATE chambreenvoi '
                 . 'SET Ordre = "|Arret_chauffage#" '
                 . 'WHERE id = 1'
@@ -371,7 +371,7 @@ class PdoR
 
     public function majChambreAuto()
     {
-        $requetePrepare = PdoGsb::$monPdo->prepare(
+        $requetePrepare = PdoR::$monPdo->prepare(
                 'UPDATE chambreenvoi '
                 . 'SET Ordre = "|Auto_chauffage#" '
                 . 'WHERE id = 1'
@@ -381,7 +381,7 @@ class PdoR
 
     public function majChambreMarche()
     {
-        $requetePrepare = PdoGsb::$monPdo->prepare(
+        $requetePrepare = PdoR::$monPdo->prepare(
                 'UPDATE chambreenvoi '
                 . 'SET Ordre = "|Marche_chauffage#" '
                 . 'WHERE id = 1'
@@ -391,7 +391,7 @@ class PdoR
 
     public function majVentilationArret()
     {
-        $requetePrepare = PdoGsb::$monPdo->prepare(
+        $requetePrepare = PdoR::$monPdo->prepare(
                 'UPDATE chambreenvoi '
                 . 'SET Ordre = "|Arret_ventilation#" '
                 . 'WHERE id = 1'
@@ -401,7 +401,7 @@ class PdoR
 
     public function majVentilationMarche()
     {
-        $requetePrepare = PdoGsb::$monPdo->prepare(
+        $requetePrepare = PdoR::$monPdo->prepare(
                 'UPDATE chambreenvoi '
                 . 'SET Ordre = "|Marche_ventilation#" '
                 . 'WHERE id = 1'
@@ -411,7 +411,7 @@ class PdoR
 
     public function majVentilationAuto()
     {
-        $requetePrepare = PdoGsb::$monPdo->prepare(
+        $requetePrepare = PdoR::$monPdo->prepare(
                 'UPDATE chambreenvoi '
                 . 'SET Ordre = "|Auto_ventilation#" '
                 . 'WHERE id = 1'
@@ -421,7 +421,7 @@ class PdoR
 
     public function getInfosChambre()
     {
-        $requetePrepare = PdoGsb::$monPdo->prepare(
+        $requetePrepare = PdoR::$monPdo->prepare(
                 'SELECT * FROM chambre '                
                 . 'WHERE id = 1'
                 );
@@ -435,7 +435,7 @@ class PdoR
 
     public function getInfosEdf()
     {
-        $requetePrepare = PdoGsb::$monPdo->prepare(
+        $requetePrepare = PdoR::$monPdo->prepare(
                 'SELECT * FROM edf '                
                 . 'WHERE id = 1'
                 );
@@ -452,7 +452,7 @@ class PdoR
     
     public function getInfosTemperatures()
     {
-        $requetePrepare = PdoGsb::$monPdo->prepare(
+        $requetePrepare = PdoR::$monPdo->prepare(
                 'SELECT * FROM chauffage '                
                 . 'WHERE id = 1'
                 );

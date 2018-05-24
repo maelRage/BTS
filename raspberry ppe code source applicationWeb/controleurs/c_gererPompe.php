@@ -23,37 +23,36 @@ $mois = getMois(date('d/m/Y'));
 $numAnnee = substr($mois, 0, 4);
 $numMois = substr($mois, 4, 2);
 $action = filter_input(INPUT_GET, 'action', FILTER_SANITIZE_STRING);
-switch ($action) {
-    
-case 'pompeLavage';
+switch ($action) {  
+case 'pompeLavage':
         $pdo->majPompeEnvoi($pompeLavage);
       break;
-case 'pompeGramond';
+case 'pompeGramond':
     $pdo->majPompeEnvoi($pompeGramond);
     break;
-case 'pompeBonjean';
+case 'pompeBonjean':
     $pdo->majPompeEnvoi($pompeBonjean);
     break;
-case 'pompeCabane';
+case 'pompeCabane':
     $pdo->majPompeEnvoi($pompeCabane);
     break;
-case 'pompeClerc';
+case 'pompeClerc':
     $pdo->majPompeEnvoi($pompeClerc);
     break;
           
-case 'pompeTimerMoins';
+case 'pompeTimerMoins':
     $pdo->majPompeEnvoiTouche($pompeTimerMoins);
     sleep(1);
     break;
-case 'pompeTimerPlus';
+case 'pompeTimerPlus':
     $pdo->majPompeEnvoiTouche($pompeTimerPlus);
     sleep(1);
     break;
-case 'pompeArret';
+case 'pompeArret':
     $pdo->majPompeEnvoiTouche($pompeArret);
     sleep(1);
     break;
-case 'pompeMarche';
+case 'pompeMarche':
     $pdo->majPompeEnvoiTouche($pompeMarche);
     sleep(1);
 }

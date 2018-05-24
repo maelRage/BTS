@@ -20,7 +20,15 @@ function deconnecter()
 }
 
 
-
+function getMois($date)
+{
+    @list($jour, $mois, $annee) = explode('/', $date);
+    unset($jour);
+    if (strlen($mois) == 1) {
+        $mois = '0' . $mois;
+    }
+    return $annee . $mois;
+}
 
 
 function intToStringEtatFonctionnement($numeroEtat){

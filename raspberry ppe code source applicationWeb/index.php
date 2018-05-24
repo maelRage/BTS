@@ -7,7 +7,7 @@
 require_once 'includes/fct.inc.php';
 require_once 'includes/class.pdo.inc.php';
 session_start();
-$pdo = PdoGsb::getPdoGsb();
+$pdo = PdoR::getPdoR();
 $estConnecte = estConnecte();
 require 'vues/v_entete.php';
 $uc = filter_input(INPUT_GET, 'uc', FILTER_SANITIZE_STRING);
