@@ -1,0 +1,61 @@
+===========================================================
+Objectif : créer un overlay simple 
+
+champs à saisir : site web et téléphone
+affichage article : 
+téléphone : avant la description
+site web : après la description
+
+dans la liste au niveau de la section : ajouter le téléphone
+
+
+===========================================================
+
+sous domaine marche.actupro.fr
+
+hote : ftp.cluster005.ovh.net
+identifiant : viennean-marche
+ftp mot de passe g4tCVYF4W3
+
+
+serveur : 10.0.218.90
+base de données actuma
+actuma / g4tCVYF4W3
+
+actupro / g4tCV
+===========================================================
+
+balisage rendu evenement  ( exemple sur valence.fr)
+
+<ul class="list">
+<li>
+<div class="ametys-cms-content news view-link vevent wrapper">
+<a class="url" href="/fr/tous-les-evenements/impression.html">
+<span class="content-illustration small">
+<img alt="" src="/_resources-images/Impression---Collectif-enfibre-expo---web_max0x306.jpg" class="event-picture"/>
+</span>
+<p class="content-date">
+<span>
+<span>28</span>
+avr
+</span>
+<span>
+<span>01</span>
+mai
+</span>
+</p>
+<div class="infos">
+<h3>
+<span class="content-title summary">Impression</span>
+</h3>
+<p class="content-abstract ">
+Cette exposition d'art textile présente le travail du collectif "Enfibre", composé de 9 femmes créatrices en art textile...
+<br/>
+</p>
+</div>
+<div class="field-end"/>
+</a>
+</div>
+</li>
+....
+</ul>
