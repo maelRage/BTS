@@ -1,0 +1,62 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2018.03.02 18:43:07 =~=~=~=~=~=~=~=~=~=~=~=
+force 0 torce 0
+Nettoyage:0
+Pompe 1
+Phase:1
+courant min:21
+courant max:24
+niveau:955
+Etat:2
+}
+Eau:26.0  
+Delestage 0
+T filtrage 780
+increment 0.5417
+force 0 torce 0
+Nettoyage:0
+Pompe 1
+Phase:1
+courant min:21
+courant max:24
+niveau:955
+Etat:2
+}
+Eau:26.0  
+Delestage 0
+T filtrage 780
+increment 0.5417
+force 0 torce 0
+Nettoyage:0
+Pompe 1
+Phase:1
+courant min:21
+courant max:24
+niveau:955
+Etat:2
+}
+Eau:26.0  
+Delestage 0
+T filtrage 780
+increment 0.5417
+force 0 torce 0
+Nettoyage:0
+Pompe 1
+Phase:1
+courant min:21
+courant max:24
+niveau:955
+Etat:2
+}
+Eau:26.0  
+Delestage 0
+T filtrage 780
+increment 0.5417
+force 0 torce 0
+Nettoyage:0
+Pompe 1
+Phase:1
+courant min:21
+courant max:24
+niveau:955
+Etat:2
+}
